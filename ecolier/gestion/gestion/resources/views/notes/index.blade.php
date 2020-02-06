@@ -63,7 +63,7 @@
 <tr>
     <th>{{ $loop->iteration }}</th>
     <th>{{$v->note}}</th>
-    <th>{{$v->eleve->matricule??''}}</th>
+    <th><a href="{{'eleve'}}">{{$v->eleve->matricule??''}}</a></th>
     <th>{{$v->matiere->libelle??''}}</th>
 
     <th>
